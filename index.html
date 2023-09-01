@@ -6,6 +6,7 @@
     <title>AUSDAIS LTY</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
 </head>
 <body>
     <header>
@@ -74,6 +75,55 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="category">
+        <div class="heading">
+            <h2>Browse by category</h2>
+        </div>
+
+    <div class="owl-carousel">
+        <div class="item">
+            <a href="home.html">
+             <div class="box">
+              
+                 <h3>Content Writer</h3>
+             </div>
+            </a>
+         </div>
+         <div class="item">
+            <a href="home.html">
+             <div class="box">
+               
+                 <h3>Graphic Designer</h3>
+             </div>
+            </a>
+         </div>
+         <div class="item">
+            <a href="home.html">
+             <div class="box">
+                 
+                 <h3>Marketing & Sales</h3>
+             </div>
+            </a>
+         </div>
+         <div class="item">
+            <a href="home.html">
+             <div class="box">
+                 
+                 <h3>Finance</h3>
+             </div>
+            </a>
+         </div>
+         <div class="item">
+            <a href="home.html">
+             <div class="box">
+                 
+                 <h3>Human Resource</h3>
+             </div>
+            </a>
+         </div>
+
+</div>
     </section>
     <section class="home2">
         <div class="container">
@@ -177,8 +227,8 @@
             <div class="heading">
                 <h2>Testimonials</h2>
             </div>
-            <div class="row">
-                <div class="col-4">
+            <div class="owl-carousel">
+                <div class="item">
                     <div class="review-box">
                         <div class="review-img">
                             <img src="image/freelancer-1.jpg" alt="image" title="image">
@@ -188,7 +238,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="item">
                     <div class="review-box">
                         <div class="review-img">
                             <img src="image/freelancer-2.jpg" alt="image" title="image">
@@ -197,16 +247,33 @@
                         <p>AUSDAIS LTY's Freelance Task Portal provided me with a wide range of freelance opportunities. The platform allowed me to browse tasks based on my preferences and offer competitive prices. </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="item">
+                    <div class="review-box">
+                        <div class="review-img">
+                            <img src="image/freelancer-4.png" alt="image" title="image">
+                        </div>
+                        <h4>Alexandra</h4>
+                        <p>I've been using AUSDAIS LTY's Freelance Task Portal for a while now, and it has been a game-changer for my freelance career. The platform is well-designed, and the task descriptions are clear and detailed. </p>
+                    </div>
+                </div>
+                <div class="item">
                     <div class="review-box">
                         <div class="review-img">
                             <img src="image/freelancer-3.jpg" alt="image" title="image">
                         </div>
                         <h4>Robert Wilson</h4>
-                        <p>I've been using AUSDAIS LTY's Freelance Task Portal for a while now, and it has been a game-changer for my freelance career. The platform is well-designed, and the task descriptions are clear and detailed. </p>
+                      <P>I was impressed by the quality of freelancers available on this website. I posted a project, and within hours, I received several competitive bids. The communication and professionalism of the freelancer I chose were outstanding. Will definitely use this platform again.</P>
                     </div>
                 </div>
-
+                <div class="item">
+                    <div class="review-box">
+                        <div class="review-img">
+                            <img src="image/freelancer-5.png" alt="image" title="image">
+                        </div>
+                        <h4>jassica</h4>
+                        <p>I've been using this freelance AUSDAIS LTY for a while now, and it has been a game-changer for my career. The platform is easy to navigate, and I've had the opportunity to work with amazing clients. Thank you!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -227,12 +294,12 @@
                             <ul class="footer-address">
                                 <li>
 
-                                    <a href="#"><i class="fa fa-phone"></i> <span>71643823741</span></a>
+                                    <a href="index.html"><i class="fa fa-phone"></i> <span>71643823741</span></a>
                                 </li>
-                                <li> <a href="#"><i class="fa fa-envelope-o"></i><span>ausdais@gmail.com</span></a></li>
+                                <li> <a href="index.html"><i class="fa fa-envelope-o"></i><span>ausdais@gmail.com</span></a></li>
 
                                 <li>
-                                    <a href="#"><i class="fa fa-map-marker"></i><span>Bundoora, Melbourne, Australia</span></a>
+                                    <a href="index.html"><i class="fa fa-map-marker"></i><span>Bundoora, Melbourne, Australia</span></a>
                                 </li>
                             </ul>
 
@@ -294,8 +361,58 @@
     <div class="footer-bottom">
         <div class="container"> 
                         <p>© Copyright 2023
-                            <a href="#">AUSDAIS LTY</a> All Rights Reserved. </p>
+                            <a href="index.html">AUSDAIS LTY</a> All Rights Reserved. </p>
                 </div>
         </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".home-5 .owl-carousel").owlCarousel({
+                    width: 344,
+                    margin: 30,
+                    items: 1,
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 3
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                })
+                $(".category .owl-carousel").owlCarousel({
+                    width: 344,
+                    margin: 30,
+                    items: 1,
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 5
+                        },
+                        600: {
+                            items: 5
+                        },
+                        1000: {
+                            items: 5
+                        }
+                    }
+                })
+            });
+        </script>
 </body>
 </html>

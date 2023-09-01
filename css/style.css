@@ -287,11 +287,22 @@ background-color: #f0f0fa;
     margin-bottom: 40px;
     justify-content: space-between;
   }
-  .login form .btn {
+  .login2 form button{
     width: 100%;
     margin-bottom: 30px;
     cursor: pointer;
+    color: #fff;
+    padding: 15px 18px;
+    border-radius: 4px;
+    text-align: center;
+    transition: all .7s;
+    border: none;
+    font-size: 18px;
+    background-color: #2042e3;
+    display: inline-block;
+    cursor: pointer;
   }
+
   .btns {
     color: #fff;
     padding: 15px 18px;
@@ -309,9 +320,7 @@ background-color: #f0f0fa;
   }
   .login2 .form-wrap form .account {
     text-align: center;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
   }
   .login2 .form-wrap form p {
     color: #757f95;
@@ -581,6 +590,15 @@ footer img {
     margin-right: -15px;
     margin-bottom: 20px;
   }
+  .job1 .job-box .link{
+    display: flex;
+    gap: 40px;
+align-items: center;
+  }
+  .job1 .job-box .btns {
+    color: #ffff;
+
+  }
   .job1 .job-box .job-image {
     margin-right: 40px;
   }
@@ -605,7 +623,7 @@ footer img {
     margin-bottom: 20px;
   }
   .job1 .job-box .link a {
-    color: #2042e3;
+    color: #fff;
     font-size: 16px;
     transition: 0.5s;
   }.job1 .job-box a h3 {
@@ -617,7 +635,14 @@ footer img {
     transition: 0.5s;
     font-weight: 500;
   }
-
+  .job1 .job-box .link .btn{
+    color: #2042e3;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  .job1 .job-box .link .btn:hover{
+    color: #000;
+  }
 .job-detail1 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -752,7 +777,7 @@ align-items: center;
     border-radius: 20px;
     transition: 0.5s;
     flex-direction: column;
-height: 100%;
+height: 389px;
 display: flex;
 background-color: #fff;
   }
@@ -767,6 +792,181 @@ background-color: #fff;
     font-size: 16px;
   }
   .home-5 img{
-    max-width: 70px;
+    max-width: 110px;
     margin-bottom: 20px;
   }
+  footer .btns:hover{
+    background-color: #1a1a1a;
+    border: 1px solid #2042e3;
+  }
+  .contact3 .contact-right .input-box{
+    display: flex;
+    gap: 10px;
+  }
+  .contact3 .contact-right .form-group{
+    width: 50%;
+  }
+  .create-account{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .create-account .account-box{
+    background-color: #f0f0fa;
+    box-shadow: rgba(1, 1, 1, .09) 0px 0px 11px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    position: relative;
+    border-radius: 10px;
+  }
+  .create-account .account-box h2{
+    color: #2a2a2a;
+font-size: 30px;
+text-align: center;
+font-weight: 500;
+margin-bottom: 20px;
+  }
+  .create-account .account-box span {
+    color: #2042e3;
+  }
+  .create-account .account-box .box{
+    display: flex;
+gap: 20px;
+padding: 30px 20px;
+border: 1px solid #ddd;
+border-radius: 10px;
+transition: 0.5s;
+  }
+  .create-account .account-box .box h3{
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .create-account .account-box .box input{
+    width: 20px;
+  }
+  .create-account .account-box .box:hover{
+    background-color: #fff;
+  }
+  .create-account .account-box .account {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .create-account .account-box p {
+    color: #757f95;
+  }
+  .create-account .account-box p a{
+    color: #2042e3;
+  }
+  .create-account .account-box button{
+    
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 18px;
+  border-radius: 4px;
+  text-align: center;
+  transition: all .7s;
+  border: none;
+  font-size: 18px;
+  background-color: #2042e3;
+  display: inline-block;
+  cursor: pointer;
+}
+.create-account .account-box .login-btn{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.profile{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+}
+.profile .profile-image img{
+  max-width: 100px;
+}
+.profile .profile-image{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile .profile-image h3{
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.profile .profile-image li i{
+  color: #f1be20;
+}
+.profile .profile-image span{
+  color: #2042e3;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 3px;
+}
+.profile .profile-left ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 5px;
+ border-bottom: 1px solid #e5e5e5;
+ margin-bottom: 10px;
+}
+
+.profile .profile-left ul h3{
+  font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+color: #2042e3;
+}
+.profile .profile-left ul h4{
+  font-size: 20px;
+  color: #5e6062;
+  font-weight: 400;
+}
+.profile .profile-right h3{
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.profile .profile-right p{
+  margin-bottom: 20px;
+
+}
+.profile .profile-right  ul{
+  display: flex;
+  gap: 10px;
+}
+.profile .profile-right  ul li{
+  width: 25%;
+}
+.profile .profile-right  ul li h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: #2042e3;
+}
+.category{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f9f9f9;;
+}
+.category .box{
+text-align: center;
+  padding: 20px;
+  border: 1px solid #cfd3e5;
+  background-color: #f0f0fa;
+
+}
+.category .box h3{
+  font-size: 20px;
+  font-weight: 300;
+  color: #2042e3;
+}
+.category .box img{
+  max-width: 40px;
+}
+.owl-carousel .owl-stage-outer{
+  margin-bottom: 0px;
+}
