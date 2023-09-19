@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AUSDAIS LTY</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,10 +22,10 @@
                     <div class="bottom-right">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a  href="freelencer-search.html">Jobs</a></li>
-                            <li><a  class="active" href="freelencer-confirm.html">New Jobs</a></li>
+                            <li><a href="freelencer-search.html">Jobs</a></li>
+                            <li><a class="active"    href="freelencer-confirm.html">New Jobs</a></li>
                             <li><a href="profile.html">Profile</a></li>
-                            <li><a   href="apply-jobs.html">Apply for Job</a></li>
+               
                          
                              <li><a href="index.html">Logout</a></li>
                         </ul>
@@ -40,106 +40,146 @@
         
             </header>
 
-<section class="job-list">
-
-  <div class="container">
-    <div class="title">
-        <div class="search-name">
-            <h2>New Jobs</h2> </div>
-            <div class="search">
-                <div class="input-group">
-                    <select name="job title" placeholder="Job Title" value="Job Title">
-                        <option value="1">Web Designer</option>
-                        <option value="2">Content Writing</option>
-                        <option value="3">Web Development</option>
-                        <option value="4">Social Media Management</option>
-                        <option value="5">Graphic Design</option>
-                        <option value="6">Virtual Assistance</option>
-                        <option value="7">SEO Specialist</option>
-                        <option value="8">Online Tutoring</option>
-                        <option value="9">Video Editing</option>
-                        <option value="10">Data Entry</option>
-                        <option value="11">Marketing Consultant</option>
-                     </select>
+            <section class="job-list">
+                <div class="container">
+                    <div class="title">
+                        <div class="search-name">
+                            <h2>New Jobs</h2>
+                        </div>
                     </div>
-                   <div class="input-group">
-                    <select name="job title" placeholder="Job Type" value="Job Type">
-                        <option value="1">Fresher</option>
-                        <option value="2">Experienced</option>
-                       
-                     </select>
-                   </div>
-              
-                <div class="find-btn">
-                    <a class="btns" href="search.html">Find job</a>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="search-filter">
+                                <div class="filter-box">
+                                <h3>Search</h3>
+                                <form>
+                                    <input class="form-control" type="text" placeholder="Search">
+                                  <a href="job-detail.html"> <i class="fa fa-search"></i></a>
+                                  </form>
+                            </div>  
+                        <div class="filter-box"><h3>Cateogry</h3>
+                         <div class="job-cate">
+                            <input type="checkbox">
+                            <h4>Web Designer</h4>
+                         </div>
+                         <div class="job-cate">
+                            <input type="checkbox">
+                            <h4>Content Writing</h4>
+                         </div>
+                         <div class="job-cate">
+                            <input type="checkbox">
+                            <h4>Web Development</h4>
+                         </div>
+                         <div class="job-cate">
+                            <input type="checkbox">
+                            <h4>Social Media Management</h4>
+                         </div>
+                         <div class="job-cate">
+                            <input type="checkbox">
+                            <h4>Graphic Design</h4>
+                         </div>
+                        </div>
+                        <div class="filter-box">
+                            <h3>Projet Price</h3>
+                            <div class="range-slider">
+                                <span class="irs js-irs-0"><span class="irs"><span class="irs-line" tabindex="-1"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: hidden;">Rp. 0</span><span class="irs-max" style="visibility: visible;">Rp. 1.000.000</span><span class="irs-from" style="visibility: visible; left: 0%;">Rp. 0</span><span class="irs-to" style="visibility: visible; left: 20.4339%;">Rp. 350.000</span><span class="irs-single" style="visibility: hidden; left: 2.57231%;">Rp. 0 - Rp. 350.000</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 3.09917%; width: 32.8306%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 0%;"></span><span class="irs-slider to type_last" style="left: 32.8306%;"></span></span><input type="text" class="js-range-slider irs-hidden-input" value="" readonly="">
+                            </div>
+                        </div>
+                        <div class="filter-box">
+                            <h3>Deadline</h3>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="filter-box">
+                            <h3>Project Length</h3>
+                            <div class="job-cate">
+                                <input type="checkbox">
+                                <h4>Small Project</h4>
+                             </div>
+                             <div class="job-cate">
+                                <input type="checkbox">
+                                <h4>Medium Project</h4>
+                             </div>
+                             <div class="job-cate">
+                                <input type="checkbox">
+                                <h4>Large Project</h4>
+                             </div>
+                        </div>
+                            </div>
+                            </div>
+                            
+                            <div class="col-8">
+                                <div class="job-box">
+                                    <div class="job-heading">
+        <a href="apply-detail.html">                             <h3>Website Design and Development</h3></a>
+                                     <span class="new">New</span>
+                                    </div>
+                           
+                                    <div class="price">
+                         <div class="price-left">
+                             <p>Requires a fully functional and responsive website for their business. The freelancer will design and develop the website, ensuring it is user-friendly and optimized for various devices.</p>
+                         </div>
+                                  <div class="price-right">
+                         
+                                     <span>$80/hrs</span>
+                                  </div>
+                                    </div>
+                                   <ul>
+                                     <li><a class="apply" href="apply-detail.html">Apply Now</a></li>
+                                 </ul>
+                                 </div> 
+                               
+                                 <div class="job-box">
+                                    <div class="job-heading">
+                                    <a href="apply-detail.html"> <h3>Graphic Design for Logo</h3></a>
+                                     <span class="old">Old</span>
+                                    </div>
+                           
+                                    <div class="price">
+                         <div class="price-left">
+                             <p> Need a professional and eye-catching logo for their business. The freelancer will provide multiple design concepts and revisions until the client is satisfied.</p>
+                         </div>
+                                  <div class="price-right">
+                         
+                                     <span>$50/hrs</span>
+                                  </div>
+                                    </div>
+                                   <ul>
+                                    <li><a class="apply" href="apply-detail.html">Apply Now</a></li>
+                                 </ul>
+                                 </div>
+                                 <div class="job-box">
+                                    <div class="job-heading">
+                                    <a href="apply-detail.html"> <h3>Content Writing for Blog</h3></a>
+                                     <span class="new">New</span>
+                                    </div>
+                           
+                                    <div class="price">
+                         <div class="price-left">
+                             <p>Needs engaging and well-researched blog posts for their website. The freelancer will create informative and SEO-optimized content that aligns with the client's target audience and brand voice.</p>
+                         </div>
+                                  <div class="price-right">
+                         
+                                     <span>$80/hrs</span>
+                                  </div>
+                                    </div>
+                                   <ul>
+                                    <li><a class="apply" href="apply-detail.html">Apply Now</a></li>
+                                   
+                                 </ul>
+                                 </div>
+                        </div>
                 </div>
-            </div>
-    </div>
-<div class="row">
-    <div class="col-10">
-        <div class="job-box">
-           <div class="job-heading">
-            <h3>Website Design and Development</h3>
-            <span class="new">New</span>
-           </div>
-  
-           <div class="price">
-<div class="price-left">
-    <p>Requires a fully functional and responsive website for their business. The freelancer will design and develop the website, ensuring it is user-friendly and optimized for various devices.</p>
-</div>
-         <div class="price-right">
-
-            <span>$80/hrs</span>
-         </div>
-           </div>
-          <ul>
-            <li><a href="apply-jobs.html">Apply Now</a></li>
-        </ul>
-        </div> </div>
-        <div class="col-10">
-            <div class="job-box">
-               <div class="job-heading">
-                <h3>Graphic Design for Logo</h3>
-                <span class="old">Old</span>
-               </div>
-      
-               <div class="price">
-    <div class="price-left">
-        <p> Need a professional and eye-catching logo for their business. The freelancer will provide multiple design concepts and revisions until the client is satisfied.</p>
-    </div>
-             <div class="price-right">
-    
-                <span>$50/hrs</span>
-             </div>
-               </div>
-              <ul>
-                <li><a href="apply-jobs.html">Apply Now</a></li>
-            </ul>
-            </div> </div>
-            <div class="col-10">
-                <div class="job-box">
-                   <div class="job-heading">
-                    <h3>Content Writing for Blog</h3>
-                    <span class="new">New</span>
-                   </div>
-          
-                   <div class="price">
-        <div class="price-left">
-            <p>Needs engaging and well-researched blog posts for their website. The freelancer will create informative and SEO-optimized content that aligns with the client's target audience and brand voice.</p>
-        </div>
-                 <div class="price-right">
-        
-                    <span>$80/hrs</span>
-                 </div>
-                   </div>
-                  <ul>
-                    <li><a href="apply-jobs.html">Apply Now</a></li>
-                  
-                </ul>
-                </div> </div>
-</div>
-  </div>
-</section>
+                    <div class="pagination">
+                        <ul>
+                            <li><a  href="search.html"><i class="fa fa-arrow-left"></i></a></li>
+                            <li><a class="active" href="search.html">1</a></li>
+                            <li><a href="search.html">2</a></li>
+                            <li><a href="search.html">3</a></li>
+                            <li><a href="search.html"><i class="fa fa-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
     <footer>
         <div class="container">

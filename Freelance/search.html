@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/range-slide.js"></script>
 </head>
 <body>
     <header>
@@ -58,95 +59,130 @@
     </section>
     <section class="job1">
         <div class="container">
+  
             <div class="row">
-                <div class="search">
-                    <div class="input-group">
-                        <select name="job title" placeholder="Job Title" value="Job Title">
-                            <option value="1">Web Designer</option>
-                            <option value="2">Content Writing</option>
-                            <option value="3">Web Development</option>
-                            <option value="4">Social Media Management</option>
-                            <option value="5">Graphic Design</option>
-                            <option value="6">Virtual Assistance</option>
-                            <option value="7">SEO Specialist</option>
-                            <option value="8">Online Tutoring</option>
-                            <option value="9">Video Editing</option>
-                            <option value="10">Data Entry</option>
-                            <option value="11">Marketing Consultant</option>
-                         </select>
-
-                         <select name="job title" placeholder="Job Type" value="Job Type">
-                            <option value="1">Fresher</option>
-                            <option value="2">Experienced</option>
-                           
-                         </select>
-                    </div>
-
-                </div>
-                <div class="find-btn">
-                    <a class="btns" href="search.html">Find job</a>
-                </div>
-            </div>
-            <div class="job-box">
                 <div class="col-4">
-                    <div class="job-image">
-                        <a href="job-detail.html"> <img src="image/job1.jpg" alt="image" title="image"></a>
+                    <div class="search-filter">
+                        <div class="filter-box">
+                        <h3>Search</h3>
+                        <form>
+                            <input class="form-control" type="text" placeholder="Search">
+                          <a href="job-detail.html"> <i class="fa fa-search"></i></a>
+                          </form>
+                    </div>  
+                <div class="filter-box"><h3>Cateogry</h3>
+                 <div class="job-cate">
+                    <input type="checkbox">
+                    <h4>Web Designer</h4>
+                 </div>
+                 <div class="job-cate">
+                    <input type="checkbox">
+                    <h4>Content Writing</h4>
+                 </div>
+                 <div class="job-cate">
+                    <input type="checkbox">
+                    <h4>Web Development</h4>
+                 </div>
+                 <div class="job-cate">
+                    <input type="checkbox">
+                    <h4>Social Media Management</h4>
+                 </div>
+                 <div class="job-cate">
+                    <input type="checkbox">
+                    <h4>Graphic Design</h4>
+                 </div>
+                </div>
+                <div class="filter-box">
+                    <h3>Projet Price</h3>
+                    <div class="range-slider">
+                        <span class="irs js-irs-0"><span class="irs"><span class="irs-line" tabindex="-1"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: hidden;">Rp. 0</span><span class="irs-max" style="visibility: visible;">Rp. 1.000.000</span><span class="irs-from" style="visibility: visible; left: 0%;">Rp. 0</span><span class="irs-to" style="visibility: visible; left: 20.4339%;">Rp. 350.000</span><span class="irs-single" style="visibility: hidden; left: 2.57231%;">Rp. 0 - Rp. 350.000</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 3.09917%; width: 32.8306%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 0%;"></span><span class="irs-slider to type_last" style="left: 32.8306%;"></span></span><input type="text" class="js-range-slider irs-hidden-input" value="" readonly="">
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="job-info">
-                        <a href="job-detail.html">
-                            <h3>Web Portal Developer</h3>
-                        </a>
+                <div class="filter-box">
+                    <h3>Deadline</h3>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="filter-box">
+                    <h3>Project Length</h3>
+                    <div class="job-cate">
+                        <input type="checkbox">
+                        <h4>Small Project</h4>
+                     </div>
+                     <div class="job-cate">
+                        <input type="checkbox">
+                        <h4>Medium Project</h4>
+                     </div>
+                     <div class="job-cate">
+                        <input type="checkbox">
+                        <h4>Large Project</h4>
+                     </div>
+                </div>
+                    </div>
+                    </div>
                     
-                        <p>As a web developer, you play a crucial role in shaping the digital landscape. Your expertise in coding, design, and problem-solving allows you to create visually stunning and functional websites that captivate users and drive business growth.</p>
-                           <div class="link">
-                            <a href="#" class="btns">Available Tasks</a>
-                            <a class="btn" href="job-detail.html">Read More</a>
-                        </div>
-                    </div>
+   <div class="col-8">
+    <div class="job-box">
+        <div class="col-4">
+            <div class="job-image">
+                <a href="job-detail.html"> <img src="image/job1.jpg" alt="image" title="image"></a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="job-info">
+                <a href="job-detail.html">
+                    <h3>Web Portal Developer</h3>
+                </a>
+            
+                <p>As a web developer, you play a crucial role in shaping the digital landscape.</p>
+                   <div class="link">
+                    <a href="#" class="btns">Available Tasks</a>
+                    <a class="btn" href="job-detail.html">Read More</a>
                 </div>
             </div>
-            <div class="job-box">
-                <div class="col-4">
-                    <div class="job-image">
-                        <a href="job-detail.html"> <img src="image/job2.jpg" alt="image" title="image"></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="job-info">
-                        <a href="job-detail.html">
-                            <h3>UI/UX Designer </h3>
-                        </a>
-                        <p>As a UI/UX designer, you have the power to shape the way users interact with digital products and services. Your expertise lies in creating intuitive and visually appealing user interfaces that enhance the overall user experience. 
-                        </p>
-                        <div class="link">
-                            <a href="#" class="btns">Available Tasks</a>
-                            <a class="btn" href="job-detail.html">Read More</a>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <div class="job-box">
+        <div class="col-4">
+            <div class="job-image">
+                <a href="job-detail.html"> <img src="image/job2.jpg" alt="image" title="image"></a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="job-info">
+                <a href="job-detail.html">
+                    <h3>UI/UX Designer </h3>
+                </a>
+                <p>As a UI/UX designer, you have the power to shape the way users interact with digital products and services.
+                </p>
+                <div class="link">
+                    <a href="#" class="btns">Available Tasks</a>
+                    <a class="btn" href="job-detail.html">Read More</a>
                 </div>
             </div>
-            <div class="job-box">
-                <div class="col-4">
-                    <div class="job-image">
-                        <a href="job-detail.html"> <img src="image/job3.jpg" alt="image" title="image"></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="job-info">
-                        <a href="job-detail.html">
-                            <h3>Full Stack Developer</h3>
-                        </a>
-                    
-                        <p>As a Full Stack Developer, you possess a versatile skill set that allows you to handle both front-end and back-end development tasks. Your expertise in multiple programming languages, frameworks, and databases.</p>
-                           <div class="link">
-                            <a href="#" class="btns">Available Tasks</a>
-                            <a class="btn" href="job-detail.html">Read More</a>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <div class="job-box">
+        <div class="col-4">
+            <div class="job-image">
+                <a href="job-detail.html"> <img src="image/job3.jpg" alt="image" title="image"></a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="job-info">
+                <a href="job-detail.html">
+                    <h3>Full Stack Developer</h3>
+                </a>
+            
+                <p>As a Full Stack Developer, you possess a versatile skill set that allows you to handle both front-end and back-end development tasks.</p>
+                   <div class="link">
+                    <a href="#" class="btns">Available Tasks</a>
+                    <a class="btn" href="job-detail.html">Read More</a>
                 </div>
             </div>
+        </div>
+    </div>
+   </div>
+        </div>
             <div class="pagination">
                 <ul>
                     <li><a  href="search.html"><i class="fa fa-arrow-left"></i></a></li>
