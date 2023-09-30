@@ -86,12 +86,21 @@
                             <h3>Prosoal Terms</h3>
                             <p>You are submitting Proposal as a freelancer</p>
                         </div>
-                        <div class="rate">
-                           <div class="input-box"> <label for="rate">Hourly Rate</label>
-                            <input type="text" class="form-control" placeholder="12.00"></div>
-                            <div class="input-box"><label for="rate">Project Rate</label>
-                                <input type="text" class="form-control" placeholder="9.60"></div>
-                        </div>
+    <div class="rate">
+        <div class="filter-box">
+            <h3>Hourly Rate</h3>
+            <div class="range-slider">
+<input type="text" class="js-range-slider" value="" />
+    </div>
+    </div>
+    <div class="filter-box">
+        <h3>Project Rate</h3>
+        <div class="range-slider">
+<input type="text" class="js-range-slider" value="" />
+</div>
+</div>
+    </div>
+                     
                         <div class="input-box">
                             <label for="example">Show me example of previous work</label>
                             <textarea name="" id="" class="form-control"></textarea>
@@ -193,6 +202,7 @@
                 </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/range-slide.js"></script>
         <script>
             jQuery(document).ready(function() {
     

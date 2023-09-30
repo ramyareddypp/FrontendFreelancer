@@ -53,41 +53,83 @@
                                 <div class="filter-box">
                                 <h3>Search</h3>
                                 <form>
-                                    <input class="form-control" type="text" placeholder="Search">
+                                    <input class="form-control" type="text" placeholder="Search" autocomplete="off">
                                   <a href="job-detail.html"> <i class="fa fa-search"></i></a>
                                   </form>
                             </div>  
                         <div class="filter-box"><h3>Cateogry</h3>
-                         <div class="job-cate">
-                            <input type="checkbox">
-                            <h4>Web Designer</h4>
-                         </div>
-                         <div class="job-cate">
-                            <input type="checkbox">
-                            <h4>Content Writing</h4>
-                         </div>
-                         <div class="job-cate">
-                            <input type="checkbox">
-                            <h4>Web Development</h4>
-                         </div>
-                         <div class="job-cate">
-                            <input type="checkbox">
-                            <h4>Social Media Management</h4>
-                         </div>
-                         <div class="job-cate">
-                            <input type="checkbox">
-                            <h4>Graphic Design</h4>
-                         </div>
+                    
+                         <nav id='menu'>
+                         
+                            <ul>
+                
+                            <li class="cate-menu"><input type="checkbox">Web Designer
+                            <ul class='menus'>
+                            <li><input type="checkbox">User Interface(UI)</li>
+                            <li><input type="checkbox">User Experience(UX)</li>
+                            <li><input type="checkbox">Responsive Web Designer</li>
+                            </ul>
+                            </li>
+               
+                        
+                            </ul>
+                            <ul>
+                
+                                <li class="cate-menu"><input type="checkbox">Content Writer
+                                <ul class='menus'>
+                                <li><input type="checkbox">SEO Content Writer</li>
+                                <li><input type="checkbox">Blog Writer</li>
+                                <li><input type="checkbox">Technical Writer</li>
+                                </ul>
+                                </li>
+                   
+                            
+                                </ul>
+                                <ul>
+                
+                                    <li class="cate-menu"><input type="checkbox">Content Writer
+                                    <ul class='menus'>
+                                    <li><input type="checkbox">
+                                        Front-End Developer</li>
+                                    <li><input type="checkbox">WordPress Developer</li>
+                                    <li><input type="checkbox">Full-Stack Developer </li>
+                                    </ul>
+                                    </li>
+                       
+                                
+                                    </ul>
+                            </nav>
+                        
+                 
                         </div>
                         <div class="filter-box">
                             <h3>Projet Price</h3>
                             <div class="range-slider">
-                                <span class="irs js-irs-0"><span class="irs"><span class="irs-line" tabindex="-1"><span class="irs-line-left"></span><span class="irs-line-mid"></span><span class="irs-line-right"></span></span><span class="irs-min" style="visibility: hidden;">Rp. 0</span><span class="irs-max" style="visibility: visible;">Rp. 1.000.000</span><span class="irs-from" style="visibility: visible; left: 0%;">Rp. 0</span><span class="irs-to" style="visibility: visible; left: 20.4339%;">Rp. 350.000</span><span class="irs-single" style="visibility: hidden; left: 2.57231%;">Rp. 0 - Rp. 350.000</span></span><span class="irs-grid"></span><span class="irs-bar" style="left: 3.09917%; width: 32.8306%;"></span><span class="irs-shadow shadow-from" style="display: none;"></span><span class="irs-shadow shadow-to" style="display: none;"></span><span class="irs-slider from" style="left: 0%;"></span><span class="irs-slider to type_last" style="left: 32.8306%;"></span></span><input type="text" class="js-range-slider irs-hidden-input" value="" readonly="">
-                            </div>
-                        </div>
+ <input type="text" class="js-range-slider" value="" />
+                    </div>
+                    </div>
                         <div class="filter-box">
                             <h3>Deadline</h3>
-                            <input type="date" class="form-control">
+                            <div class="job-cate">
+                                <input type="radio">
+                                <h4>1 Month</h4>
+                             </div>
+                             <div class="job-cate">
+                                <input type="radio">
+                                <h4>3 Month</h4>
+                             </div>
+                             <div class="job-cate">
+                                <input type="radio">
+                                <h4>3 to 6 Month</h4>
+                             </div>
+                             <div class="job-cate">
+                                <input type="radio">
+                                <h4>6 Month</h4>
+                             </div>
+                             <div class="job-cate">
+                                <input type="radio">
+                                <h4>More than year</h4>
+                             </div>
                         </div>
                         <div class="filter-box">
                             <h3>Project Length</h3>
@@ -111,7 +153,7 @@
                                 <div class="job-box">
                                    <div class="job-heading">
                                     <h3>Web Developer</h3>
-                                    <span class="old">20 hours/per week</span>
+                                    <span class="new">20 hours/per week</span>
                                    </div>
                           
                                    <div class="price">
@@ -128,13 +170,13 @@
                                
                                     <div class="job-box">
                                        <div class="job-heading">
-                                        <h3>Freelance Content Writer</h3>
-                                        <span class="old">30hours/per week</span>
+                                        <h3>Content Writer</h3>
+                                        <span class="new">30hours/per week</span>
                                        </div>
                               
                                        <div class="price">
                             <div class="price-left">
-                                <p>We are seeking a talented and experienced Freelance Content Writer to join our team. As a Content Writer, you will be responsible for creating high-quality, engaging, and informative content for various platforms...</p>
+                                <p>We are seeking a talented and experienced Content Writer to join our team. As a Content Writer, you will be responsible for creating high-quality, engaging, and informative content for various platforms...</p>
                             </div>
                                      <div class="price-right">
                             
@@ -150,17 +192,17 @@
                             
                                         <div class="job-box">
                                            <div class="job-heading">
-                                            <h3>Freelance Graphic Designer</h3>
-                                            <span class="old">$40/per week</span>
+                                            <h3>Graphic Designer</h3>
+                                            <span class="new">$40/per week</span>
                                            </div>
-                                  <p>We are looking for a talented Freelance Graphic Designer to join our creative team. As a Graphic Designer, you will be responsible for creating visually appealing and impactful designs for various projects, including logos...</p>
+                                  <p>We are looking for a talented Graphic Designer to join our creative team. As a Graphic Designer, you will be responsible for creating visually appealing and impactful designs for various projects, including logos...</p>
                                            <div class="price">
                                 <div class="price-left">
                                     <p> </p>
                                 </div>
                                          <div class="price-right">
                                 
-                                            <span>$80/hrs</span>
+                                           
                                          </div>
                                            </div>
                                           <ul class="client">
@@ -255,7 +297,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
 
@@ -267,6 +308,7 @@
                 </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/range-slide.js"></script>
         <script>
             jQuery(document).ready(function() {
     
@@ -274,7 +316,18 @@
                     jQuery('.bottom-right').slideToggle('slow');
                 })
             });
-        </script>
+
+$(document).ready(function(){
+
+
+ $(".cate-menu").click(function(){
+ $(".menus").hide(1000);
+});$(".cate-menu").click(function(){
+ $(".menus").show(1000);
+ });
+});
+      </script>
+                    
 </body>
 
 

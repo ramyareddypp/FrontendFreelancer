@@ -2372,7 +2372,7 @@ $range.ionRangeSlider({
     max: max,
     from: 0,
     to: 500000,
-  prefix: 'Rp. ',
+  prefix: '$ ',
     onStart: updateInputs,
     onChange: updateInputs,
     step: 50000,

@@ -462,6 +462,12 @@ position: relative;
   .container{
       max-width: 500px;
   }
+  .job-list .apply-bid{
+    display: block;
+  }
+  .job-list .apply-bid-info{
+    margin-bottom: 10px;
+  }
 }
 @media(max-width:500px){
   .container{
